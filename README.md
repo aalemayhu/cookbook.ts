@@ -5,9 +5,9 @@ My TypeScript scripts using only built-in Node.js APIs.
 ## Features
 
 - ✅ **Native TypeScript support** - Uses Node.js `--experimental-strip-types`
-- ✅ **Zero external dependencies** - Only built-in Node.js APIs  
+- ✅ **Zero external dependencies** - Only built-in Node.js APIs including native test runner
 - ✅ **pnpm package manager** - Fast, efficient dependency management
-- ✅ **TDD approach** - Test-driven development with Jest
+- ✅ **TDD approach** - Test-driven development with Node.js built-in test runner
 
 ## Finansavisen News CLI
 
