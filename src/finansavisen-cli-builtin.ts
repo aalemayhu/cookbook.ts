@@ -3,7 +3,7 @@ export interface NewsArticle {
   url: string;
 }
 
-export async function fetchFinansavisenNews(): Promise<NewsArticle[]> {
+export async function fetchFinansavisenNewsBuiltin(): Promise<NewsArticle[]> {
   const response = await fetch('https://finansavisen.no');
   const html = await response.text();
 
