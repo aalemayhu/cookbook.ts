@@ -34,9 +34,9 @@ pnpm test
 
 ```
 src/
-├── cli.ts                    # Main CLI entry point
 └── apps/
     └── finansavisen/
+        ├── main.ts          # CLI entry point for finansavisen
         ├── cli.ts           # Finansavisen news fetcher
         └── cli.test.ts      # Tests for the news fetcher
 ```
