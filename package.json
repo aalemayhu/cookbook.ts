@@ -4,9 +4,9 @@
         "description": "TypeScript scripts using only built-in Node.js APIs",
         "type": "module",
         "scripts": {
-                "test": "node --experimental-strip-types --test src/*.test.ts",
+                "test": "node --no-warnings --experimental-strip-types --test src/*.test.ts",
                 "build": "tsc",
-                "finansavisen": "node --experimental-strip-types src/cli.ts"
+                "finansavisen": "node --no-warnings --experimental-strip-types src/cli.ts"
         },
         "devDependencies": {
                 "@types/node": "^20.0.0",
