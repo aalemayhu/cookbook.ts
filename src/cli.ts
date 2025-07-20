@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { fetchFinansavisenNews } from './finansavisen-cli.ts';
+import { fetchFinansavisenNews } from './apps/finansavisen/cli.ts';
 
 async function main() {
   try {

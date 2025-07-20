@@ -1,7 +1,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert';
 
-import { fetchFinansavisenNews } from './finansavisen-cli.ts';
+import { fetchFinansavisenNews } from './cli.ts';
 
 describe('finansavisen-cli', () => {
   test('should fetch top news from finansavisen.no', async () => {
