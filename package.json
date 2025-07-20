@@ -6,8 +6,5 @@
         "scripts": {
                 "test": "node --no-warnings --experimental-strip-types --test src/*.test.ts",
                 "finansavisen": "node --no-warnings --experimental-strip-types src/cli.ts"
-        },
-        "devDependencies": {
-                "@types/node": "^20.0.0"
         }
 }
