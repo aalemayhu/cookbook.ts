@@ -14,32 +14,7 @@ My TypeScript scripts using only built-in Node.js APIs.
 
 ## Apps
 
-### Finansavisen News CLI (`src/apps/finansavisen/`)
 
-Fetches top news from finansavisen.no using only built-in Node.js APIs.
-
-### Usage
-
-```bash
-pnpm finansavisen
-```
-
-### Testing
-
-```bash
-pnpm test
-```
-
-## Project Structure
-
-```
-src/
-└── apps/
-    └── finansavisen/
-        ├── main.ts          # CLI entry point for finansavisen
-        ├── cli.ts           # Finansavisen news fetcher
-        └── cli.test.ts      # Tests for the news fetcher
-```
 
 ## Requirements
 

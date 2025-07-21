@@ -4,7 +4,6 @@
         "description": "TypeScript scripts using only built-in Node.js APIs",
         "type": "module",
         "scripts": {
-                "test": "node --no-warnings --experimental-strip-types --test src/**/*.test.ts",
-                "finansavisen": "node --no-warnings --experimental-strip-types src/apps/finansavisen/main.ts"
+                "test": "node --no-warnings --experimental-strip-types --test src/**/*.test.ts"
         }
 }
